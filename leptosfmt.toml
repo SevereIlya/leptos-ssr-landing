@@ -1,0 +1,6 @@
+max_width = 120
+tab_spaces = 4
+macro_names = [
+    "view",
+    "leptos::view",
+]

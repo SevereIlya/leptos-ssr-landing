@@ -1,0 +1,12 @@
+[build]
+rustflags = [
+    "-W", "clippy::all",
+    "-W", "clippy::pedantic",
+    "-W", "clippy::nursery",
+    "-A", "clippy::missing_errors_doc",
+    "-A", "clippy::must_use_candidate",
+    "-A", "clippy::wildcard_imports",
+    "-A", "clippy::too_many_lines",
+    "-A", "clippy::option_if_let_else",
+    "-A", "clippy::unreadable-literal"
+]

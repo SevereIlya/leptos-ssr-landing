@@ -1,0 +1,43 @@
+@theme inline {
+    /* Поверхности */
+    --color-surface-1: oklch(0.16 0.040 270);
+    --color-surface-2: oklch(0.17 0.045 270);
+
+    /* Текст */
+    --color-foreground: oklch(0.96 0.01 90);
+    --color-muted-foreground: oklch(0.74 0.01 90);
+
+    /* UI-элементы */
+    --color-card: oklch(0.21 0.05 270);
+    --color-border: oklch(1 0 0 / 12%);
+
+    /* Акценты */
+    --color-gold: oklch(0.82 0.14 82);
+    --color-gold-soft: oklch(0.88 0.08 85);
+
+    /* Градиенты */
+    --gradient-hero: linear-gradient(
+            90deg,
+            transparent 10%,
+            oklch(0.28 0.09 285 / 0.18) 40%,
+            oklch(0.28 0.09 285 / 0.18) 60%,
+            transparent 90%
+    );
+    --gradient-ambient:
+            radial-gradient(ellipse at top, oklch(0.28 0.09 285 / 0.5), transparent 60%),
+            radial-gradient(ellipse at bottom, oklch(0.22 0.06 270 / 0.6), transparent 70%);
+
+    /* Типографика */
+    --font-serif: "Lora", Georgia, serif;
+    --font-sans: "Rubik", system-ui, sans-serif;
+
+    /* Кастомные анимации */
+    --animate-float: float 6s ease-in-out infinite;
+    --animate-float-delayed: float 5s ease-in-out 1.5s infinite;
+    --animate-float-fast: float 4s ease-in-out 1s infinite;
+
+    @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+    }
+}

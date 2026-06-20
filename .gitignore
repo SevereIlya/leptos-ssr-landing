@@ -1,0 +1,16 @@
+# Секреты
+/.env
+/config.toml
+
+# Папки
+/.idea/
+/node_modules/
+/notes/
+/public/fonts/
+/public/icons/
+/public/images/
+/target/
+
+# Прочие файлы
+package.json
+package-lock.json

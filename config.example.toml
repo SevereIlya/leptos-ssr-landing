@@ -1,0 +1,10 @@
+database_url = "postgres://user:pass@localhost/db"
+
+telegram_bot_token = "YOUR_TELEGRAM_TOKEN"
+telegram_chat_id = 000000000
+
+[smpt]
+host = "smtp.gmail.com"
+user = "your_bot@gmail.com"
+password = "YOUR_APP_PASSWORD"
+admin_email = "admin@example.com"

@@ -1,0 +1,23 @@
+pub mod header;
+pub mod hero;
+pub mod pains;
+pub mod about_method;
+pub mod about_expert;
+pub mod reviews;
+pub mod faq;
+pub mod final_cta;
+pub mod footer;
+pub mod helpers;
+pub mod icons;
+
+pub use header::*;
+pub use hero::*;
+pub use pains::*;
+pub use about_method::*;
+pub use about_expert::*;
+pub use reviews::*;
+pub use faq::*;
+pub use final_cta::*;
+pub use footer::*;
+pub use helpers::*;
+pub use icons::*;
