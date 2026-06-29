@@ -9,6 +9,7 @@ pub mod final_cta;
 pub mod footer;
 pub mod helpers;
 pub mod icons;
+pub mod cookie_banner;
 
 pub use header::*;
 pub use hero::*;
@@ -21,3 +22,4 @@ pub use final_cta::*;
 pub use footer::*;
 pub use helpers::*;
 pub use icons::*;
+pub use cookie_banner::*;

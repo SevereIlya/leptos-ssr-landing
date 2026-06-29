@@ -15,5 +15,6 @@ pub fn LandingPage() -> impl IntoView {
             <FinalCtaSection />
         </main>
         <Footer />
+        <CookieBanner />
     }
 }
